@@ -1,3 +1,9 @@
+/*
+* No Debugger
+* A program to disable and prevent downloads in the developer console.
+* 2020 John Cailtyn
+*/
+
 var minimalUserResponseInMiliseconds = 200;
 function check() {
     before = new Date().getTime();
