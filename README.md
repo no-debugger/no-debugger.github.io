@@ -1,4 +1,4 @@
-### NO Debugger
+#### NO Debugger
 
 Have you ever wanted to prevent users from downloading content that they otherwise wouldn't be able to access? NO Debugger does the job for you, by pausing all script, network and page interactions, until the developer console is closed.
 
