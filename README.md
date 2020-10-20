@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## We present: NO Debugger
 
-You can use the [editor on GitHub](https://github.com/no-debugger/no-debugger.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Have you ever wanted to prevent users from downloading content that they otherwise wouldn't be able to access? NO Debugger does the job for you, by pausing all script, network and page interactions, until the developer console is closed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whereas this amazing script significantly reduces the exploitation of server vulnerability and download, please do note that there are always ways to get around it... even if these skills are only known by a very few. NEVER leave your servers prone to code injections via the console.
 
-### Markdown
+### How it works:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Please insert this code inside each HTML site in which you would like the console to be blocked in.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<script src="https://no-debugger.github.io/app.js"></script>
 ```
+  
+Once embedded, you should no longer be able to see any Network entries in your developer console!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/no-debugger/no-debugger.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### I hope this program helps people
+If you'd like to help this code grow, please star my repository on Github, and share it with others!
