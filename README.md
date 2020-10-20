@@ -6,7 +6,7 @@ Whereas this amazing script significantly reduces the exploitation of server vul
 
 ### How it works:
 
-Please insert this code inside each HTML site in which you would like the console to be blocked in.
+Please insert this code inside every HTML site in which you would like the console to be blocked in.
 
 ```markdown
 <script src="https://no-debugger.github.io/app.js"></script>
