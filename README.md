@@ -9,7 +9,7 @@ Whereas this amazing script significantly reduces the exploitation of server vul
 Here is the latest stable update which you can append to your <body> tag.
   
 ```markdown
-<script src="https://no-debugger.github.io/app.js"></script>
+<script src="https://no-debugger.github.io/instant.js"></script>
 ```
 Once embedded, the developer console should instantly redirect to a ban.html page!
 This MUST reside in the parent directory on your website.
