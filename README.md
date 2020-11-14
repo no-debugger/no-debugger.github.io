@@ -6,13 +6,18 @@ Whereas this amazing script significantly reduces the exploitation of server vul
 
 ### How it works:
 
-Please insert this code inside every HTML site in which you would like the console to be blocked in.
-
+Here is the latest stable update which you can append to your <body> tag.
+  
 ```markdown
 <script src="https://no-debugger.github.io/app.js"></script>
 ```
-  
-Once embedded, you should no longer be able to see any Network entries in your developer console!
+Once embedded, the developer console should instantly redirect to a ban.html page!
+This MUST reside in the parent directory on your website.
+
+E.g.:
+https://example.com/ban.html?url=[URLYOUCAMEFROM]
+
+If you would like IP tracking, please contact me via Github, and we can discuss pricing.
 
 ### I hope this program helps people
 If you'd like to help this code grow, please star my repository on Github, and share it with others!
